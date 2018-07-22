@@ -1,6 +1,6 @@
 def my_collect(array)
   if block_given?
-    int i = 0
+    i = 0
     newArray = []
     while i < array.length
       newArray.push(yield (array[1]))
